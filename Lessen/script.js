@@ -8,5 +8,14 @@ function test(e){
 }
 
 function a(){
-
+    var tekst = "A";
+    if(true){
+        var tekst = "B";
+        alert(tekst);
+    }
+    alert(tekst)
+    if(true){
+        tekst = "C";
+    }
+    alert(tekst)
 }
