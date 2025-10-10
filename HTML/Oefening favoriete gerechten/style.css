@@ -1,0 +1,12 @@
+img{
+    height: 70px;
+}
+
+body > img{
+    display: block;
+    margin:auto;
+}
+
+li img{
+    height: 100px;
+}
