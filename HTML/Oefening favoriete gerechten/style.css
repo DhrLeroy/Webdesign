@@ -7,6 +7,41 @@ body > img{
     margin:auto;
 }
 
+table, tr, td{
+    border: 1px solid black;
+}
+
 li img{
     height: 100px;
+}
+
+th{
+    background-color: darkorange;
+    font-weight: bold;
+}
+
+tr{
+    background-color: orange;
+}
+
+#favoriet{
+    background-color: rgb(213, 238, 246);
+}
+
+li{
+    background-color: rgb(249, 198, 104);
+}
+
+#favoriet th{
+    background-color: navy;
+    color: white;
+    border: 2px dashed white;
+}
+
+#favoriet tr{
+    background-color: lightblue;
+}
+
+tr.vegi{
+    background-color: lightgreen;
 }

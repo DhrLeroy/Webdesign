@@ -1,0 +1,28 @@
+
+img{
+    height: 200px;
+}
+
+td img{
+    height: 100px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: 1px dashed green;
+}
+
+.favoriet {
+    background-color: lightskyblue;
+}
+
+b#favoriet{
+    background-color: aqua;
+}
+
+li#favoriet{
+    background-color: cornflowerblue;
+}
