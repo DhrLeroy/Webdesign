@@ -1,0 +1,23 @@
+li{
+    color:blue;
+}
+
+body > p:nth-child(3n){
+    color:orange;
+}
+
+body > p:nth-child(2n+4){
+    background-color: aqua;
+}
+
+
+li:nth-child(2){
+    color:red;
+}
+
+li:nth-child(even){
+    color:green;
+}
+li:nth-child(odd){
+    color:yellow;
+}
