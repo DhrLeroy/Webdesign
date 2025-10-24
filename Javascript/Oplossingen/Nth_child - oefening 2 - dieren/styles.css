@@ -1,0 +1,12 @@
+li:nth-child(4n+1){
+   background-color: lightgreen;
+}
+li:nth-child(4n+2){
+   background-color: #0cc20c;
+}
+li:nth-child(4n+3){
+   background-color: darkgreen;
+}
+li:nth-child(4n){
+   background-color: #0cc20c;
+}
