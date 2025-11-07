@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  margin: 0% auto;
+  display: block;
+}
+
+div:nth-child(even){
+  background-color: lightblue;
+}
+
+div:nth-child(odd){
+  background-color: lightgreen;
+}

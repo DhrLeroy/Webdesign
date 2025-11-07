@@ -1,12 +1,26 @@
 body{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
 }
 
-img{
-    flex:1;
-    height:300px;
-    border-radius: 50%;
+.square {
+  width: 300px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.square img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.grey{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }
