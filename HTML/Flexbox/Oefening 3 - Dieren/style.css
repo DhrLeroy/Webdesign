@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+img{
+    flex:1;
+    height:300px;
+    border-radius: 50%;
+}
