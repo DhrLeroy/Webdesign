@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+span{
+    font-size: small;
+    background-color: aqua;
+    flex:1;
+    word-wrap: break-word;
+}
+
+span:first-child{
+    flex-grow:2;
+}
+
+span:last-child{
+    flex-shrink: 3;
+}
