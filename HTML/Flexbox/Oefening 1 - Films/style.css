@@ -20,3 +20,8 @@ div:nth-child(even){
 div:nth-child(odd){
   background-color: lightgreen;
 }
+
+div{
+  width: 200px;
+  margin: 20px;
+}
