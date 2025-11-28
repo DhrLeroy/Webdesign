@@ -2,6 +2,15 @@ img{
     width: 200px;
 }
 
-#wotw{
+.focused{
+    width: 300px;
+}
+.showed{
     width: 600px;
+}
+
+#posters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

@@ -1,12 +1,37 @@
-var teller = 1
+function f(e){
+    let imgs = document.querySelectorAll("img");
+    for(let i = 0; i < imgs.length; i++){
+        imgs[i].classList.remove("focused");
+    }
+    e.classList.add("focused");
 
-function voegToe(){
-    var lijst = document.querySelector("#mijnLijst");
+    let h1 = document.querySelector("#titel");
+    h1.innerText = e.getAttribute("data-titel");
+}
 
-    var nieuw_element = document.createElement("li");
-    nieuw_element.innerText = "Nieuw element - "+teller.toString();
+function s(e){
+    let imgs = document.querySelectorAll("img");        
+    let table = document.querySelector("#"+e.getAttribute("data-film"));
+    if(e.classList.contains("showed")){
+        e.classList.remove("showed");
+        for(let i = 0; i < imgs.length; i++){
+            imgs[i].removeAttribute("hidden");
+        }
+        table.setAttribute("hidden","1");
+    }else{
+        for(let i = 0; i < imgs.length; i++){
+            imgs[i].setAttribute("hidden", "1");
+        }
+        e.removeAttribute("hidden");
+        e.classList.remove("focused");
+        e.classList.add("showed");
 
-    lijst.appendChild(nieuw_element);
+        let tables = document.querySelectorAll("table");
+        for(let i = 0; i < tables.length; i++){
+            tables[0].setAttribute("hidden", "1");
+        }
 
-    teller++;
+        table.removeAttribute("hidden");
+    }
+    
 }
