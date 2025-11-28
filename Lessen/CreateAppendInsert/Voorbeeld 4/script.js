@@ -2,6 +2,8 @@ function voegToe(){
 
     var txt = document.querySelector("#tekstvak");
 
+    txt.setAttribute("hidden","1");
+
     var new_p = document.createElement("p");
     new_p.innerText = txt.value;
 
@@ -9,4 +11,11 @@ function voegToe(){
 
     txt.value = "";
 
+}
+
+function toon(){
+    
+    var txt = document.querySelector("#tekstvak");
+
+    txt.removeAttribute("hidden");
 }

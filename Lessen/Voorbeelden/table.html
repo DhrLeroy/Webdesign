@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        <div id="teksten">
+            <p>Dit is tekst</p>
+            <p>Dit ook</p>
+        </div>
+        <input type="button" onclick="voegTekstToe()" value="toevoegen"/>
+
+        <input type="button" onclick="toon()" value="Toon"/>
+        <table border="1">
+            <thead>
+                <tr><th colspan="2">Kolommen</th></tr>
+                <tr><th>Kolom 1</th><th>Kolom 2</th></tr>
+            </thead>
+            <tbody>
+                <tr><td data-waarde="X2" hidden id="a1" onclick="verberg(this)">A1</td><td rowspan="2">A2</td></tr>
+                <tr><td hidden class="green">B1</td></tr>
+                <tr><td class="green">C1</td><td>C2</td></tr>
+            </tbody>
+        </table>
+    </body>
+    <p class="textRed">Hello</p>
+    <p class="textRed">World</p>
+    <p class="textRed">Hello</p>
+    <p class="textRed">World</p>
+    <input type="button" onclick="makeRed()" value="Rood maken"/>
+</html>
