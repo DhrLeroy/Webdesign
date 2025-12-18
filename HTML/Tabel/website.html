@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="8">Weekmenu</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th class="day">Maandag</th>
+            <th class="day">Dinsdag</th>
+            <th class="day">Woensdag</th>
+            <th class="day">Donderdag</th>
+            <th class="day">Vrijdag</th>
+            <th class="day">Zaterdag</th>
+            <th class="day">Zondag</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- ONTBIJT -->
+        <tr>
+            <td>Ontbijt</td>
+
+            <!-- Maandag + Dinsdag zelfde ontbijt -->
+            <td class="breakfast" colspan="2">
+                Havermout met banaan & honing
+            </td>
+
+            <td class="breakfast">Yoghurt met granola</td>
+            <td class="breakfast">Volkoren toast met avocado</td>
+            <td class="breakfast">Smoothie bowl (aardbei-mango)</td>
+            <td class="breakfast">Pannenkoekjes van havermout</td>
+
+            <!-- Zondag brunch overspant ontbijt én lunch -->
+            <td class="breakfast" rowspan="2">
+                Zondagsbrunch:<br>
+                Frittata, salade & vers brood
+            </td>
+        </tr>
+
+        <!-- LUNCH -->
+        <tr>
+            <td>Lunch</td>
+
+            <td class="lunch">Kikkererwtensalade</td>
+            <td class="lunch">Wrap met hummus & groenten</td>
+            <td class="lunch">Rijstsalade met tonijn</td>
+            <td class="lunch">Tomatensoep + brood</td>
+            <td class="lunch">Quinoa bowl met avocado</td>
+            <td class="lunch">Pastasalade caprese</td>
+
+            <!-- GEEN CEL VOOR ZONDAG (rowspan bij ontbijt) -->
+        </tr>
+
+        <!-- AVONDETEN -->
+        <tr>
+            <td>Avondeten</td>
+
+            <td class="dinner">Kip met geroosterde groenten</td>
+            <td class="dinner">Vegetarische curry met rijst</td>
+
+            <!-- Wo + Do dezelfde pasta-maaltijd -->
+            <td class="dinner" colspan="2">
+                Pasta bolognese / vegetarische optie
+            </td>
+
+            <td class="dinner">Zalm met aardappelen</td>
+            <td class="dinner">Groentestoof met couscous</td>
+            <td class="dinner">Ovenschotel prei & aardappel</td>
+        </tr>
+
+    </tbody>
+</table>
+
+    </body>
+</html>

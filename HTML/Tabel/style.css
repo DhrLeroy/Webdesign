@@ -1,0 +1,14 @@
+th, td {
+        padding: 6px 10px;
+}
+thead > tr:nth-child(1) > th {
+    background: #333;
+    color: #fff;
+    font-size: 1.2em;
+}
+th.day {
+    background: #bcd4ff;
+}
+td.breakfast { background: #fff7e6; }
+td.lunch { background: #e6fff7; }
+td.dinner { background: #f0f0f0; }
