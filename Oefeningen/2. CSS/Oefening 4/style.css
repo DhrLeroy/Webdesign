@@ -1,0 +1,52 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+h1>span{
+    color:lightgray
+}
+
+p span {
+    color:darkgreen
+}
+
+#fav{
+    color:green
+}
+
+img{
+    height: 400px;
+    border-radius: 20px;
+}
+
+#book{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+thead > tr:nth-child(1) > th{
+    background-color: gray;
+}
+
+thead > tr > th{
+    background-color: lightgray;
+}
+
+tbody > tr > td:nth-child(1){
+    background-color: darkblue;
+    color:white
+}
+tbody > tr > td:nth-child(2){
+    background-color: lightskyblue;
+}
+tbody > tr > td:nth-child(3){
+    background-color: lightblue;
+}

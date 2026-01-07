@@ -1,0 +1,30 @@
+h1{
+    color: navy
+}
+
+p{
+    background-color: blue;
+    color:white
+}
+
+h2{
+    color:cyan
+}
+
+img {
+    margin: 30px;
+    height: 200px;
+}
+
+.large {
+    height: 400px;
+}
+
+th{
+    color:white;
+    background-color: black;
+}
+
+td{
+    color:gray
+}

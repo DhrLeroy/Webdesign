@@ -1,0 +1,43 @@
+h1{
+    color: brown
+}
+
+img{
+    padding: 50px;
+    background-color: beige;
+    border: 10px solid brown;
+    padding: 20px;
+}
+
+h2{
+    color: chocolate
+}
+
+th{
+    color:lightgreen;
+    background-color: darkgreen;
+}
+
+td:nth-child(1){
+    color:yellow;
+    background-color: black;
+}
+td:nth-child(2){
+    color:black;
+    background-color: yellow;
+}
+td:nth-child(3){
+    color:yellow;
+    background-color: red;
+}
+
+ol{
+    background-color: black;
+    padding: 30px;
+}
+li:nth-child(odd){
+    color:yellow
+}
+li:nth-child(even){
+    color:red
+}
