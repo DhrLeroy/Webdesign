@@ -2,6 +2,11 @@ h1{
     color: brown
 }
 
+tr.white > td{
+    background-color: white;
+    color: black;
+}
+
 img{
     padding: 50px;
     background-color: beige;
