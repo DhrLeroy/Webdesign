@@ -3,9 +3,9 @@ function voegToe(e){
     let text_na = document.querySelector("#na").value;
 
     let nodeVoor = document.createElement("li");
-    nodeVoor.innerText = text_voor;
+    nodeVoor.inn = text_voor;
     let nodeNa = document.createElement("li");
-    nodeNa.innerText = text_na;
+    nodeNa.textContent = text_na;
 
     let gerechten = document.querySelector("#gerechten")
 
