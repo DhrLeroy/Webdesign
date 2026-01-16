@@ -1,0 +1,18 @@
+*{
+    background-color: yellow;
+}
+body{
+    background-color:lightgreen;
+}
+
+li{
+    background-color: pink;
+}
+
+
+li span {
+    background-color: orange;
+}
+li > span {
+    background-color: red;
+}

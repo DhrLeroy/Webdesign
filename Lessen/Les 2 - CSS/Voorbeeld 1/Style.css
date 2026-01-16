@@ -17,9 +17,13 @@ td#xyz{
 }
 
 td.abc{
-    background-color: pink;
+    background-color: #9e2198;
 }
 
 td.uvw{
     color: blue;
+}
+
+.fysica{
+    background-color: aqua;
 }
