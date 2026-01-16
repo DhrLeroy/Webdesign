@@ -1,0 +1,25 @@
+p#nederlands {
+    background-color: black;
+    color: red;
+}
+
+p#chinees {
+    background-color: red;
+    color: yellow;
+}
+
+td{
+    background-color: green;
+}
+
+td#xyz{
+    background-color: lightblue;
+}
+
+td.abc{
+    background-color: pink;
+}
+
+td.uvw{
+    color: blue;
+}
