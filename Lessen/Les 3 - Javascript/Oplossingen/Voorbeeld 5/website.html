@@ -4,18 +4,14 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <p>Naam: <input /></p>
-        <p>Hobby: <input /></p>
-        <p><button>Voeg hobby toe</button></p>
+        <p>Naam: <input id="naam"/></p>
+        <p>Hobby: <input id="hobby"/></p>
+        <p><button onclick="voegHobbyToe()">Voeg hobby toe</button></p>
         <table>
             <thead>
                 <tr><th>Naam</th><th>Hobby</th></tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>Renaud</td>
-                    <td>Muziek spelen</td>
-                </tr>
+            <tbody id="hobbies">
             </tbody>
         </table>
     </body>
