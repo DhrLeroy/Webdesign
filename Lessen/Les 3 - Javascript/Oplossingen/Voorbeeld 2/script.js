@@ -1,0 +1,3 @@
+function zegHallo(){
+    alert("Hallo!")
+}
