@@ -1,0 +1,12 @@
+#a{
+    background-color: red;
+    height: auto;
+}
+
+#b{
+    display: block;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    margin: 20px 40px 80px;
+}

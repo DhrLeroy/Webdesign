@@ -1,0 +1,44 @@
+#menu{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+@media (max-width:800px) {
+  .films{
+    flex-direction: column;
+  }
+}
+
+@media (min-width:801px) {
+  .films{
+    flex-direction: row;
+  }
+}
+
+.films{
+  display: flex;
+}
+
+.film{
+  margin: 20px;
+  border: 2px solid navy;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.film > img{
+  max-width: 200px;
+  width:100%;
+  margin:auto;
+}
+
+.film > h1{
+  text-align: center;
+}
+
+.grey{
+  background-color: lightgray;
+}
