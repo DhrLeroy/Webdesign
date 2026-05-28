@@ -1,0 +1,33 @@
+:root{
+    --grootte: 30px;
+    --blauw: rgba(68, 250, 253, 0.637);
+}
+
+.inside{
+    color:var(--blauw)
+}
+
+p{
+    font-size: 0.7em;
+    border: 0.1em solid red;
+    margin: 0.2em;
+    padding: 0.4em;
+}
+
+img{
+    width: 10rem;
+}
+
+b,i{
+    font-size: 0.5em;
+}
+
+b > i
+{
+    font-size: 1em;
+}
+
+
+li{
+    font-size: var(--grootte);
+}

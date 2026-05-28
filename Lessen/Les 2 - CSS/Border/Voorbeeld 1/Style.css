@@ -1,0 +1,47 @@
+:root{
+    red: #ba2f25
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+div.green{
+    background-color: greenyellow;
+}
+div.yellow{
+    background-color: yellow;
+}
+div.red{
+    background-color: crimson;
+}
+
+div.container{
+    border: 6px dotted black;
+}
+
+div > img{
+    margin: 20px;
+    border-radius: 25%;
+}
+
+img {
+    width: 500px;
+    border: 2px solid coral;
+    border-radius: 50px;
+}
+
+span{
+    border: 10px dashed gold;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

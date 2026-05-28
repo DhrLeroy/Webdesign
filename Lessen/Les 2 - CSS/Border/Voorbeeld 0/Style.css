@@ -1,0 +1,82 @@
+:root{
+    --rood: rgb(19, 237, 253);
+    --groen: rgba(148, 235, 17, 0.897);
+    --randtype: solid;
+}
+
+body{
+    background-color: var(--groen);
+}
+
+
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid brown;
+}
+div:nth-child(1){
+    border-radius: 10px;
+}
+div:nth-child(2){
+    border-radius: 20%;
+}
+div:nth-child(3){
+    border-radius: 20%;
+    height: 50px; 
+    width: 50px;
+}
+div:nth-child(4){
+    border-radius: 50%;
+}
+
+div:nth-child(5){
+    border-radius: 50% 25%;
+}
+div:nth-child(6){
+    border-radius: 50% 25% 10%;
+}
+div:nth-child(7){
+    border-radius: 50% 25% 10% 5px;
+}
+
+
+p{
+    background-color: var(--rood);
+
+    margin: 20px;
+    border: 5px solid black;
+    padding:10px;
+}
+
+img{
+    margin: 20px;
+    border: 5px solid var(--rood);
+    padding: 10px;
+    height:100px;
+}
+
+td{
+    border-color: var(--rood);
+    border-width: 1px;
+}
+td:nth-child(n+2){
+    border-width: 10px;
+}
+td:nth-child(1){
+    border-style: var(--randtype);
+    padding: 10px;
+}
+td:nth-child(2){
+    border-style: var(--randtype);
+    padding: 10px 5px;
+}
+td:nth-child(3){
+    border-style: var(--randtype);
+    padding: 10px 5px 20px;
+}
+td:nth-child(4){
+    border-style: var(--randtype);
+    padding: 10px 5px 20px 30px;
+}
